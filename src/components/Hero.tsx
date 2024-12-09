@@ -30,7 +30,7 @@ export default function Hero() {
           <Image
             width={624.15}
             height={633.51}
-            src="/heroPlate.png"
+            src="/hero-plate.png"
             alt="heroPlate"
             className="w-50 h-auto shadow-md "
           />
