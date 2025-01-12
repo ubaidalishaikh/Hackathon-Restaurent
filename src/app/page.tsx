@@ -1,12 +1,12 @@
-import Aboutus from "@/components/Aboutus";
-import Category from "@/components/Category";
-import ChefSection from "@/components/ChefSection";
-import Hero from "@/components/Hero";
-import WhyChooseUs from "@/components/WhyChooseUs";
-
-
-
-
+"use client"
+import HeroSection from "./Hero-Section/page";
+import AboutUs from "./About-Section/page";
+import Category from "./Category-Section/page";
+import ChooseUS from "./ChooseUs/page";
+import MenuSection from "./menu/page";
+import Testimonial from "./Testimonials/page";
+import LatestBlogs from "./LatestBlogs/page";
+import MeetOurChefs from "./Chefs/page";
 
 
 
@@ -14,11 +14,17 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 export default function Home() {
   return (
     <div>
-      <Hero/>
-      <Aboutus/>
+      <HeroSection/>
+      <AboutUs/>
       <Category/>
-      <WhyChooseUs/>
-      <ChefSection/>
+      <ChooseUS/>
+      <MenuSection/>
+      <MeetOurChefs/>
+      <Testimonial/>
+      <LatestBlogs/>
+      
+     
+      
     </div>
   );
 }
