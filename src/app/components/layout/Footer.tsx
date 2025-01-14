@@ -267,7 +267,7 @@ const Footer = () => {
         </div>
         <div className="px-4 py-6 bg-[#FF9F0D] md:flex md:items-center md:justify-between rounded-[20px]">
           <span className="text-sm text-white text-center md:text-left block">
-            Copyright &copy; 2024 by Muhammad Sami Ur Rehman. All Rights Reserved.
+            Copyright &copy; 2024 by Ubaid Ali Shaikh. All Rights Reserved.
           </span>
 
           <div className="flex justify-center gap-4 mt-4 md:mt-0">
